@@ -1,0 +1,81 @@
+{
+  "categories": ["Web", "JavaScript", "Java", "Python"],
+  "data": {
+    "portfolio": {
+      "name": "Portfolio",
+      "description": "I've made this portfolio because I needed some kind of overseeable representation of my work and experience.",
+      "image": "/assets/work/portfolio.gif",
+      "type": ["Web", "JavaScript"],
+      "github": "https://github.com/Maiky1304/maikyperlee.nl"
+    },
+    "uberclone": {
+      "name": "Uber Clone",
+      "description": "I've made this simple Uber Clone which is mostly frontend using React Native and Tailwind.",
+      "image": "/assets/work/uberreactnative.gif",
+      "type": ["JavaScript"],
+      "github": "https://github.com/Maiky1304/uberclone"
+    },
+    "hangmanschool": {
+      "name": "Hangman Game",
+      "description": "I did this project as a school assignment even though it is a small project I thought it would be cool to put it here.",
+      "image": "/assets/work/hangmanschool.gif",
+      "type": ["Python"],
+      "github": "https://github.com/Maiky1304/hangman-game"
+    },
+    "blackmt": {
+      "name": "BlackMT",
+      "description": "BlackMT was my Minecraft server that I ran from early 2020 through about May 2021, I had a really great time coding and working on this project.",
+      "image": "/assets/work/blackmt.jpeg",
+      "type": ["Java", "Minecraft"],
+      "github": "https://github.com/BlackMinetopia"
+    },
+    "postits": {
+      "name": "Post Its",
+      "description": "Assignment that I did for my class CSS Art at school.",
+      "image": "/assets/work/postitscssart.png",
+      "type": ["Web", "CSS"],
+      "github": "https://codepen.io/maiky1304/pen/GRMooBG"
+    },
+    "emojieyes": {
+      "name": "Emoji Eyes",
+      "description": "Assignment that I did for my class CSS Art at school.",
+      "image": "/assets/work/eyescssart.png",
+      "type": ["Web", "CSS"],
+      "github": "https://codepen.io/maiky1304/pen/XWeXXYd"
+    },
+    "blackmtbot": {
+      "name": "BlackMT Bot",
+      "description": "This is a Discord Bot that I've created for my old Minecraft server.",
+      "image": "/assets/work/blackmt2.jpeg",
+      "type": ["JavaScript", "discord.js"],
+      "github": "https://github.com/Maiky1304/blackmt-bot"
+    },
+    "sumo": {
+      "name": "Sumo",
+      "description": "This was a private plugin but I made it public after it wasn't really being used privately anymore.",
+      "image": "/assets/work/sumo.jpeg",
+      "type": ["Java", "Minecraft"],
+      "github": "https://github.com/Maiky1304/Sumo"
+    },
+    "rijksmuseumbo": {
+      "name": "Rijksmuseum Beroepsopdracht",
+      "description": "This was another assignment for school part of the first sprint of my so called 'Beroeps Opdracht'.",
+      "image": "/assets/work/rijksmuseum.gif",
+      "type": ["Web", "gitcollab:Joeri5"]
+    },
+    "2faplugin": {
+      "name": "AdvancedAuth",
+      "description": "This was a project that I created pretty simple, don't know why I called it 'Advanced'Auth lol.",
+      "image": "/assets/work/2fa.jpeg",
+      "type": ["Java", "Minecraft"],
+      "github": "https://github.com/Maiky1304/AdvancedAuth"
+    },
+    "infiniteparkour": {
+      "name": "Infinite Parkour",
+      "description": "This was a project that I did for my application to DevRoom as Plugin Developer, it generates random blocks for you to jump to (like the title said you can go on infinitely)",
+      "image": "/assets/work/parkourmc.png",
+      "type": ["Java", "Minecraft"],
+      "github": "https://github.com/Maiky1304/InfinityParkour"
+    }
+  }
+}
