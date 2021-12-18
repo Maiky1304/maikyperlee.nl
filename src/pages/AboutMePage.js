@@ -1,5 +1,4 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
 import moment from "moment";
 import LookAtMyWorkButton from "../components/core/LookAtMyWorkButton";
 import TextSection from "../components/about/TextSection";
@@ -42,8 +41,9 @@ const AboutMePage = () => {
       <section className="flex flex-col justify-between xl:flex-row-reverse items-center gap-x-52 mt-32">
         <TextSection className="flex flex-col gap-5 load dark:text-white">
           <p>
-            I've been coding since I was about 9-10 years old and I've learned
-            so many new things over these ${age - 10} years.
+            I've been coding since I was about 10 years old and I've learned so
+            many new things over these {age - 10} years. It's truly amazing what
+            you're capable of if just put your time and effort into it.
           </p>
           <p>
             I'm really comfortable with working with React and Next.js, I also
