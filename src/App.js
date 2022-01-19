@@ -1,7 +1,13 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Navbar from "./components/core/Navbar";
 import DrawerMenu from "./components/core/DrawerMenu";
-import { HomePage, ContactPage, AboutMePage, WorkPage } from "./pages";
+import {
+  HomePage,
+  ContactPage,
+  AboutMePage,
+  WorkPage,
+  WorkInfoPage,
+} from "./pages";
 import MobileNavbar from "./components/core/MobileNavbar";
 
 function App() {
@@ -14,6 +20,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/work" element={<WorkPage />} />
+        <Route path="/work/:project" element={<WorkInfoPage />} />
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/aboutme" element={<AboutMePage />} />
       </Routes>

@@ -52,12 +52,12 @@ body {
 }
 
 .load {
-  animation: load 0.8s;
+  animation: load 0.4s;
 }
 
 @keyframes load {
   from {
-    transform: scale(0);
+    transform: scale(0.75);
     opacity: 0;
   }
   to {
