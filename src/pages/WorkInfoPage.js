@@ -14,10 +14,10 @@ const WorkInfoPage = (props) => {
   }
 
   return (
-    <section className="px-8 md:px-16 lg:px-24 xl:px-28 flex items-center justify-between mt-20 load">
+    <section className="px-8 md:px-16 lg:px-24 xl:px-28 py-10 load">
       <header className="p-5 max-w-2xl dark:text-white">
         <h1 className="font-bold text-4xl">{projectData.name}</h1>
-        <p className="mt-3 text-sm text-secondary-100 font-light">
+        <p className="mt-3 text-sm text-secondary-600 dark:text-secondary-100">
           {projectData.description}
         </p>
         <div className="mt-3">
@@ -46,16 +46,17 @@ const WorkInfoPage = (props) => {
           />
         </div>
       </header>
-      <section className="w-1/2 h-96 rounded-xl">
+      <section className="w-full rounded-xl mt-10">
         <Slide infinite={false} transitionDuration={500}>
           {projectData.images.map((image) => (
             <div className="each-slide rounded-xl">
               <div
-                className="flex items-end bg-cover h-96 p-3 rounded-xl"
+                className="flex items-end bg-contain p-3 rounded-xl"
                 style={{
+                    height: '600px',
                   backgroundImage: `url(${image.url})`,
                   backgroundSize: "cover",
-                  backgroundPosition: "center",
+                  backgroundPosition: "left",
                 }}
               >
                 <span className="p-5 bg-opacity-90 rounded-xl text-md text-center bg-cyan-500 text-white font-bold">

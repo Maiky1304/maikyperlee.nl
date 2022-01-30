@@ -166,6 +166,35 @@
           "title": "FuseRewind Clip Bot"
         }
       ]
+    },
+    "villagercraft_support": {
+      "name": "VillagerCraft Support Bot",
+      "description": "I've created this product for a client through DevRoom, it is a ticket support bot with all the core features.",
+      "thumbnail": "/assets/work/villagercraftsupport/VillagerCraftBot_1.png",
+      "type": ["JavaScript", "discord.js"],
+      "github": "https://github.com/Maiky1304/uberclone",
+      "images": [
+        {
+          "url": "/assets/work/villagercraftsupport/VillagerCraftBot_1.png",
+          "title": "Ticket Panel"
+        },
+        {
+          "url": "/assets/work/villagercraftsupport/VillagerCraftBot_2.png",
+          "title": "Category Selection Menu"
+        },
+        {
+          "url": "/assets/work/villagercraftsupport/VillagerCraftBot_3.png",
+          "title": "Custom Transcript Page"
+        },
+        {
+          "url": "/assets/work/villagercraftsupport/VillagerCraftBot_4.png",
+          "title": "Claimable Tickets"
+        },
+        {
+          "url": "/assets/work/villagercraftsupport/VillagerCraftBot_Video.gif",
+          "title": "Questionnaire Preview"
+        }
+      ]
     }
   }
 }
