@@ -51,12 +51,13 @@ const WorkInfoPage = (props) => {
           {projectData.images.map((image) => (
             <div className="each-slide rounded-xl">
               <div
-                className="flex items-end bg-contain p-3 rounded-xl"
+                className="flex items-end p-3 rounded-xl bg-cyan-200 dark:bg-cyan-800"
                 style={{
-                    height: '600px',
-                  backgroundImage: `url(${image.url})`,
-                  backgroundSize: "cover",
-                  backgroundPosition: "left",
+                    height: '800px',
+                    backgroundImage: `url(${image.url})`,
+                    backgroundSize: "contain",
+                    backgroundPosition: "center",
+                    backgroundRepeat: "no-repeat space"
                 }}
               >
                 <span className="p-5 bg-opacity-90 rounded-xl text-md text-center bg-cyan-500 text-white font-bold">
